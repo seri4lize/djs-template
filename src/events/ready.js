@@ -14,7 +14,7 @@ module.exports = {
       console.error(error);
     }
     client.user.setStatus("online"); //dnd= donotdisturb
-    client.user.setActivity("Testing...", {
+    client.user.setActivity("github.com/Bur4kt", {
       type: ActivityType.Custom,
     });
     console.log(`${client.user.username} is online!`);
